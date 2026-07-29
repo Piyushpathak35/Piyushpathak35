@@ -1,8 +1,4 @@
 <p align="center">
-  <img width="100%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXFuZWFuMXdkaTM5NWd1cm9ud2JvN2RsNmhmbnNuNnI0OXBlNmFtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a8XXAqHC5tZYs/giphy.gif" alt="Cyber terminal animation" />
-</p>
-
-<p align="center">
   <img width="100%" src="./assets/hero.svg" alt="Brutalist profile hero" />
 </p>
 

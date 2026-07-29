@@ -9,7 +9,6 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-FONT = "Inter, Arial, Helvetica, sans-serif"
 MONO = "JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace"
 
 
@@ -59,7 +58,7 @@ def hero() -> str:
   <rect x="70" y="48" width="1058" height="236" fill="#0a0a0a" stroke="#f8fafc" stroke-width="4" filter="url(#shadow)"/>
   <rect class="scan" x="70" y="48" width="170" height="236" fill="url(#scan)" opacity=".35"/>
   <text x="104" y="104" fill="#facc15" font-family="{MONO}" font-size="18" font-weight="800">SECURITY_RESEARCH_PROFILE</text>
-  <text x="104" y="176" fill="#f8fafc" font-family="{FONT}" font-size="58" font-weight="900" letter-spacing="0">PIYUSH PATHAK</text>
+  <text x="104" y="176" fill="#f8fafc" font-family="{MONO}" font-size="58" font-weight="900" letter-spacing="0">PIYUSH PATHAK</text>
   <text x="106" y="224" fill="#67e8f9" font-family="{MONO}" font-size="24" font-weight="800">ANDROID REVERSE ENGINEERING / MALWARE RESEARCH / FULL STACK</text>
   <rect x="1004" y="86" width="72" height="72" fill="#facc15"/>
   <rect class="pulse" x="1018" y="100" width="44" height="44" fill="#050505"/>
@@ -80,7 +79,7 @@ def section(title: str, index: str, accent: str) -> str:
   <rect x="16" y="14" width="1168" height="60" fill="#0a0a0a" stroke="#f8fafc" stroke-width="3"/>
   <rect x="16" y="14" width="94" height="60" fill="{accent}"/>
   <text x="46" y="54" fill="#050505" font-family="{MONO}" font-size="26" font-weight="900">{index}</text>
-  <text x="136" y="54" fill="#f8fafc" font-family="{FONT}" font-size="30" font-weight="900" letter-spacing="0">{safe_title}</text>
+  <text x="136" y="54" fill="#f8fafc" font-family="{MONO}" font-size="30" font-weight="900" letter-spacing="0">{safe_title}</text>
   <line class="rail" x1="760" y1="44" x2="1162" y2="44" stroke="{accent}" stroke-width="4" stroke-dasharray="28 18"/>
 </svg>
 """
@@ -113,6 +112,23 @@ def terminal() -> str:
   <rect class="glow" x="24" y="86" width="1152" height="18" fill="#67e8f9"/>
   {text_lines(lines, 54, 84, 19, "#f8fafc", 28)}
   <rect class="cursor" x="636" y="151" width="12" height="24" fill="#facc15"/>
+</svg>
+"""
+
+
+def typing() -> str:
+    return f"""
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+  <title id="title">Typing line</title>
+  <desc id="desc">Animated typing line in a single monospace font.</desc>
+  <style>
+    @keyframes cursor {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
+    .cursor {{ animation: cursor 1s step-end infinite; }}
+  </style>
+  <rect width="1200" height="92" fill="#050505"/>
+  <rect x="18" y="18" width="1164" height="56" fill="#0a0a0a" stroke="#67e8f9" stroke-width="3"/>
+  <text x="44" y="54" fill="#f8fafc" font-family="{MONO}" font-size="24" font-weight="900">ANDROID REVERSE ENGINEER / SECURITY RESEARCHER / FULL STACK DEVELOPER</text>
+  <rect class="cursor" x="1095" y="31" width="10" height="28" fill="#facc15"/>
 </svg>
 """
 
@@ -166,6 +182,7 @@ def main() -> int:
     write_svg("section-stats.svg", section("Github Telemetry", "04", "#67e8f9"))
     write_svg("section-map.svg", section("Contribution Map", "05", "#facc15"))
     write_svg("section-signal.svg", section("Current Signal", "06", "#67e8f9"))
+    write_svg("typing.svg", typing())
     write_svg("terminal.svg", terminal())
     write_svg("signal.svg", signal())
     write_svg("footer.svg", footer())

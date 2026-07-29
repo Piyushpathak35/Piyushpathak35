@@ -44,6 +44,16 @@ root@piyush:~$ focus --current
   </tr>
 </table>
 
+## Terminal Animation
+
+```bash
+python3 scripts/ascii_animation.py --clear
+```
+
+```bash
+python3 scripts/ascii_animation.py --color cyan --delay 0.02 --loop
+```
+
 ## Mission Control
 
 <table>

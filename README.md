@@ -1,131 +1,200 @@
-# Hi, I'm Piyush Pathak 👋
-
 <div align="center">
 
-### Full Stack Developer • Android Reverse Engineering • CTF Player • Security Research Enthusiast
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:050816,45:0072FF,100:00F7FF&text=Piyush%20Pathak&fontAlignY=38&fontColor=FFFFFF&fontSize=72&desc=Android%20Reverse%20Engineer%20%7C%20Security%20Researcher%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=20&animation=fadeIn" alt="Piyush Pathak animated banner" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Android+Reverse+Engineer;CTF+Player;Security+Research+Enthusiast;Always+Learning+Something+New"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2600&pause=800&color=00F7FF&center=true&vCenter=true&width=1000&lines=Android+Reverse+Engineering;Binary+Analysis+%26+Malware+Research;Frida+%7C+Ghidra+%7C+ARM64;CTF+Player+%26+Security+Researcher;Full+Stack+Developer" alt="Typing animation" />
+
+<br />
+
+<img src="https://komarev.com/ghpvc/?username=Piyushpathak35&style=for-the-badge&label=PROFILE+VIEWS&color=00f7ff" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Piyushpathak35?style=for-the-badge&label=FOLLOWERS&color=0072ff&labelColor=050816" alt="GitHub followers" />
+<img src="https://img.shields.io/github/stars/Piyushpathak35?style=for-the-badge&label=TOTAL+STARS&color=00f7ff&labelColor=050816" alt="GitHub stars" />
 
 </div>
 
 ---
 
-## About Me
+<table>
+  <tr>
+    <td width="58%">
 
-* Full Stack Developer
-* Android Reverse Engineering Enthusiast
-* CTF Player
-* Interested in Malware Analysis and Mobile Security
-* Linux User
-* Learning Low-Level Systems and Exploit Development
+<pre>
+root@piyush:~$ whoami
 
----
+Android Reverse Engineer
+Security Research Enthusiast
+CTF Player
+Full Stack Developer
+Linux Power User
 
-## Tech Stack
+root@piyush:~$ focus --current
 
-### Languages
+&gt; Android internals
+&gt; Native libraries
+&gt; Malware analysis
+&gt; Binary exploitation
+&gt; Dynamic instrumentation
+&gt; Web security
+</pre>
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge\&logo=c)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=cplusplus)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk)
+  </td>
+  <td width="42%" align="center">
+    <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100%" alt="Coding animation" />
+  </td>
+  </tr>
+</table>
 
-### Frontend
+## Mission Control
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)
+<table>
+  <tr>
+    <td width="50%">
 
-### Backend
+<h3>Currently Building</h3>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge\&logo=express)
+<ul>
+  <li>Android reversing labs and instrumentation notes</li>
+  <li>Security tooling around Frida, Ghidra, and Linux</li>
+  <li>Full stack projects with clean APIs and practical UI</li>
+  <li>CTF writeups for web, crypto, pwn, and reversing</li>
+</ul>
 
-### Database
+  </td>
+  <td width="50%">
 
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql)
+<h3>Research Map</h3>
 
-### Tools
+<ul>
+  <li>APK internals, native libraries, ARM64, JNI</li>
+  <li>Hooking, tracing, memory inspection, unpacking</li>
+  <li>Linux, Docker, networking, exploit development</li>
+  <li>Malware behavior, static analysis, dynamic analysis</li>
+</ul>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker)
-![Frida](https://img.shields.io/badge/Frida-EA4335?style=for-the-badge)
-![Ghidra](https://img.shields.io/badge/Ghidra-CC0000?style=for-the-badge)
-![IDA](https://img.shields.io/badge/IDA_Pro-6A1B9A?style=for-the-badge)
+  </td>
+  </tr>
+</table>
 
----
+## Arsenal
 
-## GitHub Stats
+<div align="center">
 
-<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts,nodejs,react,nextjs,tailwind,express,mongodb,postgres,docker,linux,bash,git,github,aws,gcp,firebase,vscode&perline=11" alt="Skill icons" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Piyushpathak35&show_icons=true&theme=tokyonight&hide_border=true"/>
+</div>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyushpathak35&layout=compact&theme=tokyonight&hide_border=true"/>
+<br />
 
-</p>
+<table>
+  <tr>
+    <td align="center" width="25%"><b>Reverse Engineering</b><br />Frida, Ghidra, IDA, JADX</td>
+    <td align="center" width="25%"><b>Security</b><br />CTFs, Web, Malware, Mobile</td>
+    <td align="center" width="25%"><b>Systems</b><br />Linux, ARM64, Native Code</td>
+    <td align="center" width="25%"><b>Full Stack</b><br />React, Node, APIs, Databases</td>
+  </tr>
+</table>
 
----
+## GitHub Telemetry
 
-## GitHub Streak
+<div align="center">
 
-<p align="center">
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Piyushpathak35&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&custom_title=GitHub%20Stats" alt="GitHub stats" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyushpathak35&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com?user=Piyushpathak35&theme=tokyonight&hide_border=true"/>
+<br />
 
-</p>
+<img width="60%" src="https://streak-stats.demolab.com?user=Piyushpathak35&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" />
 
----
+<br />
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Piyushpathak35&theme=github_dark" alt="Profile summary card" />
+
+</div>
 
 ## Activity Graph
 
-<p align="center">
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Piyushpathak35&theme=tokyo-night"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Piyushpathak35&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
-</p>
+</div>
 
----
+## Contribution Snake
 
-## Current Focus
+<div align="center">
 
-```text
-Reverse Engineering
-Android Internals
-Exploit Development
-System Programming
-Binary Analysis
-CTFs
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Piyushpathak35/Piyushpathak35/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Piyushpathak35/Piyushpathak35/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Piyushpathak35/Piyushpathak35/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</picture>
 
----
+</div>
 
-## Featured Interests
+## Live Metrics
 
-* Android Application Security
-* Native Libraries
-* ARM64
-* Frida
-* Dynamic Instrumentation
-* Malware Analysis
-* Linux
-* Docker
-* Networking
-* Web Security
+<div align="center">
 
----
+<img width="100%" src="./github-metrics.svg" alt="Generated GitHub metrics" />
 
-## Quote
+</div>
 
-> "Understanding systems is more valuable than memorizing tools."
+<table>
+  <tr>
+    <td width="50%">
 
----
+<h3>Coding Pulse</h3>
+
+<pre>
+Reverse Engineering  ###############------
+Python / Automation  #############--------
+Full Stack           ###########----------
+CTF Practice         #########------------
+Systems Research     ########-------------
+</pre>
+
+  </td>
+  <td width="50%">
+
+<h3>Now Exploring</h3>
+
+<pre>
+Android Security     active
+Binary Analysis      active
+Malware Research     active
+Exploit Dev          learning
+Cloud Security       building
+</pre>
+
+  </td>
+  </tr>
+</table>
+
+<!-- Replace YOUR_LEETCODE_USERNAME and YOUR_HOLOPIN_USERNAME when those profiles are ready. -->
+<!--
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=JetBrains%20Mono" alt="LeetCode stats" />
+  <img src="https://holopin.me/YOUR_HOLOPIN_USERNAME" alt="Holopin badges" />
+</div>
+-->
 
 ## Connect
 
-* GitHub: https://github.com/Piyushpathak35
-* Email: [piyushpathak716@gmail.com](mailto:piyushpathak716@gmail.com)
+<div align="center">
+
+<a href="https://github.com/Piyushpathak35">
+  <img src="https://img.shields.io/badge/GitHub-Piyushpathak35-050816?style=for-the-badge&logo=github" alt="GitHub" />
+</a>
+<a href="mailto:piyushpathak716@gmail.com">
+  <img src="https://img.shields.io/badge/Email-piyushpathak716%40gmail.com-0072ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:00F7FF,100:0072FF" alt="Footer wave" />
+
+</div>

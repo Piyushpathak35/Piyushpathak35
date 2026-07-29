@@ -1,0 +1,33 @@
+name: Generate profile assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_profile_assets.py"
+      - ".github/workflows/profile-assets.yml"
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate animated SVG assets
+        run: python3 scripts/generate_profile_assets.py
+
+      - name: Commit updated assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile assets"
+          file_pattern: "assets/*.svg"

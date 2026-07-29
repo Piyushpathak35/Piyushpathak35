@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-label="Profile automation footer">
+  <style>
+    @keyframes move { from { transform: translateX(-180px); } to { transform: translateX(1200px); } }
+    .block { animation: move 4s linear infinite; }
+  </style>
+  <rect width="1200" height="92" fill="#050505"/>
+  <rect x="20" y="18" width="1160" height="56" fill="#facc15"/>
+  <rect class="block" x="20" y="18" width="160" height="56" fill="#67e8f9" opacity=".75"/>
+  <text x="48" y="54" fill="#050505" font-family="JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="19" font-weight="900">CI GENERATED PROFILE ASSETS / LAST BUILD: 2026-07-29 18:27 UTC</text>
+</svg>

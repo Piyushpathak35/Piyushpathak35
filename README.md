@@ -2,6 +2,8 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:050816,45:0072FF,100:00F7FF&text=Piyush%20Pathak&fontAlignY=38&fontColor=FFFFFF&fontSize=72&desc=Android%20Reverse%20Engineer%20%7C%20Security%20Researcher%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=20&animation=fadeIn" alt="Piyush Pathak animated banner" />
 
+<img width="100%" src="./assets/ascii-profile-animation.svg" alt="Animated terminal ASCII art" />
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2600&pause=800&color=00F7FF&center=true&vCenter=true&width=1000&lines=Android+Reverse+Engineering;Binary+Analysis+%26+Malware+Research;Frida+%7C+Ghidra+%7C+ARM64;CTF+Player+%26+Security+Researcher;Full+Stack+Developer" alt="Typing animation" />
 
 <br />

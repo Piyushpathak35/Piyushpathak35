@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+  <title id="title">Typing line</title>
+  <desc id="desc">Animated typing line in a single monospace font.</desc>
+  <style>
+    @keyframes cursor { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .cursor { animation: cursor 1s step-end infinite; }
+  </style>
+  <rect width="1200" height="92" fill="#050505"/>
+  <rect x="18" y="18" width="1164" height="56" fill="#0a0a0a" stroke="#67e8f9" stroke-width="3"/>
+  <text x="44" y="54" fill="#f8fafc" font-family="JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="24" font-weight="900">ANDROID REVERSE ENGINEER / SECURITY RESEARCHER / FULL STACK DEVELOPER</text>
+  <rect class="cursor" x="1095" y="31" width="10" height="28" fill="#facc15"/>
+</svg>

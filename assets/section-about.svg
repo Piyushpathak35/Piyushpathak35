@@ -7,6 +7,6 @@
   <rect x="16" y="14" width="1168" height="60" fill="#0a0a0a" stroke="#f8fafc" stroke-width="3"/>
   <rect x="16" y="14" width="94" height="60" fill="#facc15"/>
   <text x="46" y="54" fill="#050505" font-family="JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="26" font-weight="900">01</text>
-  <text x="136" y="54" fill="#f8fafc" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="900" letter-spacing="0">IDENTITY</text>
+  <text x="136" y="54" fill="#f8fafc" font-family="JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="30" font-weight="900" letter-spacing="0">IDENTITY</text>
   <line class="rail" x1="760" y1="44" x2="1162" y2="44" stroke="#facc15" stroke-width="4" stroke-dasharray="28 18"/>
 </svg>

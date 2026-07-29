@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -145,7 +144,6 @@ def signal() -> str:
 
 
 def footer() -> str:
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return f"""
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-label="Profile automation footer">
   <style>
@@ -155,7 +153,7 @@ def footer() -> str:
   <rect width="1200" height="92" fill="#050505"/>
   <rect x="20" y="18" width="1160" height="56" fill="#facc15"/>
   <rect class="block" x="20" y="18" width="160" height="56" fill="#67e8f9" opacity=".75"/>
-  <text x="48" y="54" fill="#050505" font-family="{MONO}" font-size="19" font-weight="900">CI GENERATED PROFILE ASSETS / LAST BUILD: {escape(stamp)}</text>
+  <text x="48" y="54" fill="#050505" font-family="{MONO}" font-size="19" font-weight="900">CI GENERATED PROFILE ASSETS / AUTO REFRESH ENABLED</text>
 </svg>
 """
 
@@ -167,6 +165,7 @@ def main() -> int:
     write_svg("section-ops.svg", section("Operating Areas", "03", "#facc15"))
     write_svg("section-stats.svg", section("Github Telemetry", "04", "#67e8f9"))
     write_svg("section-map.svg", section("Contribution Map", "05", "#facc15"))
+    write_svg("section-signal.svg", section("Current Signal", "06", "#67e8f9"))
     write_svg("terminal.svg", terminal())
     write_svg("signal.svg", signal())
     write_svg("footer.svg", footer())
